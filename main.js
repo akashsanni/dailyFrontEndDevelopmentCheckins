@@ -544,3 +544,22 @@ this: reference to an object
 //   console.log(result.email === 'mark@compuserve.com');
   // action.payload.name;
   // { type: 'CHANGE_EMAIL', payload: { email: 'joe@gmail.com' } }
+
+  
+  //Avoid Imperative, Write Declarative Code:
+  // Imperative - code for a computer / declarative - code for people
+// const people = ['Doug', 'Fred', 'Jane'];
+// const invitations = [];
+
+// for (let i = 0; i < people.length; i++) {
+//     invitations[i] = `Hi ${people[i]}, come to my party!`;
+// }
+
+// const invitations = people.map(person => `Hi ${person}, come to my party!`);
+// console.log(invitations);
+// people.forEach(person =>invitations.push(` Hi, ${person} you are invited!`));
+
+// people.forEach((person,per,p,q) => {console.log(person,per,p,q)});
+// ›Doug,0,["Doug", "Fred", "Jane"],undefined
+// ›Fred,1,["Doug", "Fred", "Jane"],undefined
+// ›Jane,2,["Doug", "Fred", "Jane"],undefined
