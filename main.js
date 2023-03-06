@@ -625,3 +625,27 @@ this: reference to an object
 //     </div>
 // )
 // ReactDOM.render(renderElement,document.getElementById("root"))
+
+// function ElementsExpense(props){
+//   // const date = new Date().toLocaleDateString('en-us', {day:"numeric" , month:"short" , year:"numeric"});
+//   // const title = "Television";
+//   // const price = "35.45";
+//   console.log(props)
+//   return (
+//       <div className="expense-component">
+//           <div className="expense-component-box">
+//               <div className="expense-date">
+//                   <h3>{props.date}</h3>
+//               </div>   
+//               <div className="expense-title">
+//                   <h3>{props.title}</h3>
+//               </div>
+//               <div className="expense-price">
+//                   <h3>${props.price}</h3>
+//               </div>
+//           </div>
+//       </div>
+//   )
+// }
+
+// export default ElementsExpense;
